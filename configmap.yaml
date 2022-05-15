@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: my-config
+data:
+  SPRING_RABBITMQ_HOST: "mu-rabbit-rabbitmq.rabbit.svc.cluster.local"
+  SPRING_RABBITMQ_PORT: 5672
+  SPRING_RABBITMQ_USERNAME: "user"
+  SPRING_RABBITMQ_PASSWORD: "oomXS6nBPm"
